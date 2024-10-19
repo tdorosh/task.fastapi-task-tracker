@@ -1,0 +1,37 @@
+{
+    "roles": [
+        {
+            "title": "manager",
+            "description": "Can create, edit and delete tasks"
+        },
+        {
+            "title": "performer",
+            "description": "Can change task status"
+        }
+    ],
+    "users": [
+        {
+            "name": "Manager",
+            "email": "manager@email.com",
+            "password": "some-password",
+            "role": "manager"
+        },
+        {
+            "name": "Performer",
+            "email": "performer@email.com",
+            "password": "some-password",
+            "role": "performer"
+        }
+    ],
+    "tasks": [
+        {
+            "title": "Some title",
+            "description": "Some description",
+            "priority": "medium",
+            "responsible": 1,
+            "performers": [
+                2
+            ]
+        }
+    ]
+}
